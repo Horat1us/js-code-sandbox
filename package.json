@@ -1,0 +1,32 @@
+{
+  "name": "@horat1us/js-code-sandbox",
+  "version": "1.0.0",
+  "description": "JS Code Testing Sandbox",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test -r chai/register-expect -s 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horat1us/js-code-sandbox.git"
+  },
+  "keywords": [
+    "sandbox"
+  ],
+  "author": "Alexander <horat1us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Horat1us/js-code-sandbox/issues"
+  },
+  "homepage": "https://github.com/Horat1us/js-code-sandbox#readme",
+  "dependencies": {
+    "@types/chai": "^4.2.11",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.13"
+  }
+}
