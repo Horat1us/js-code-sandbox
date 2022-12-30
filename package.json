@@ -23,7 +23,7 @@
   "dependencies": {
     "@types/chai": "^4.2.11",
     "chai": "^4.2.0",
-    "mocha": "^8.0.0"
+    "mocha": "^8.4.0"
   },
   "devDependencies": {
     "@types/mocha": "^7.0.2",
